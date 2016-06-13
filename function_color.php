@@ -1,5 +1,12 @@
+
 <?php
-function color($room, $colour){
-  echo "the " .$room ."$colour ."<br/>;
+ $room="bedroom";
+ $colour="green";
+
+function color($room="bedroom",$colour="green"){
+  echo "the " .$room ." is " .$colour ."<br/>";
 }
-colour("office", "red");
+color("office","red");
+color();
+
+?>
